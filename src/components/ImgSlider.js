@@ -20,20 +20,20 @@ const ImgSlider = (props) => {
     </a>
 </Wrap>
 <Wrap>
-    <a>
-        <img src="./images/slider-scale.jpg" alt="" />
-    </a>
-</Wrap>
+        <a>
+          <img src="/images/slider_androids.png" alt="" />
+        </a>
+      </Wrap>
 <Wrap>
-    <a>
-        <img src="./images/slider-badag.jpg" alt="" />
-    </a>
-</Wrap>
+        <a>
+          <img src="/images/slider_artcellgoku.jpg" alt="" />
+        </a>
+      </Wrap>
 <Wrap>
-    <a>
-        <img src="./images/slider-scales.jpg" alt="" />
-    </a>
-</Wrap>
+        <a>
+          <img src="/images/slider_gt.png" alt="" />
+        </a>
+      </Wrap>
         </Carousel>
     )
 }

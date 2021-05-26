@@ -46,7 +46,7 @@ const setUser = (user) => {
 
     return <Nav>
         <Logo>
-        <img src="/images/logo.svg" alt="Disney+" />
+        <img src="/images/dbplus.svg" alt="Disney+" />
       </Logo>
       {
            !userName ?
