@@ -1,30 +1,23 @@
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import { selectGames } from '../features/Movie/movieSlice';
 
 const Games = (props) => {
+    const movies = useSelector(selectGames);
     return <Container>
         <h3>Video Games</h3>
         <Content>
-            <Wrap>
-                <Link to='/'>
-                    <img src="https://i.ytimg.com/vi/oiBWFKnd7oM/maxresdefault.jpg" alt="" />
-                </Link>
-            </Wrap>
-            <Wrap>
-                <Link to='/'>
-                    <img src="https://cdn03.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_DragonBallFighterZ_image1600w.jpg" alt="" />
-                </Link>
-            </Wrap>
-            <Wrap>
-                <Link to='/'>
-                    <img src="https://www.crypto-sports.network/sites/default/files/styles/slider/public/banner/dbxv2-banner.jpg?itok=HxjgiACy" alt="" />
-                </Link>
-            </Wrap>
-            <Wrap>
-                <Link to='/'>
-                    <img src="https://digistatement.com/wp-content/uploads/2021/05/ogp_ww_20190708.jpg" alt="" />
-                </Link>
-            </Wrap>
+        {
+               movies && movies.map((movie, key) => (
+                   <Wrap key={key}>
+                       {movie.id}
+                       <Link to={'/detail/' + movie.id}>
+                           <img src={movie.cardImg} alt={movie.title}/>
+                       </Link>
+                   </Wrap>
+               ))
+           }
         </Content>
         </Container>
 

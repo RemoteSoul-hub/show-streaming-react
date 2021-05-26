@@ -1,24 +1,30 @@
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
-import { useSelector } from 'react-redux';
-import { selectRecommend } from '../features/Movie/movieSlice';
 
-const Recommends = (props) => {
-    const movies = useSelector(selectRecommend);
-
+const Trending = (props) => {
     return <Container>
-        <h3>Recommended For You</h3>
+        <h3>Trending</h3>
         <Content>
-           {
-               movies && movies.map((movie, key) => (
-                   <Wrap key={key}>
-                       {movie.id}
-                       <Link to={'/detail/' + movie.id}>
-                           <img src={movie.cardImg} alt={movie.title}/>
-                       </Link>
-                   </Wrap>
-               ))
-           }
+            <Wrap>
+                <Link to='/'>
+                    <img src="https://www.screentest.xyz/wp-content/uploads/2021/01/Granolah_survivor_arc.PNG.png" alt="" />
+                </Link>
+            </Wrap>
+            <Wrap>
+                <Link to='/'>
+                    <img src="https://www.screentest.xyz/wp-content/uploads/2021/01/Granolah_survivor_arc.PNG.png" alt="" />
+                </Link>
+            </Wrap>
+            <Wrap>
+                <Link to='/'>
+                    <img src="https://www.screentest.xyz/wp-content/uploads/2021/01/Granolah_survivor_arc.PNG.png" alt="" />
+                </Link>
+            </Wrap>
+            <Wrap>
+                <Link to='/'>
+                    <img src="https://www.screentest.xyz/wp-content/uploads/2021/01/Granolah_survivor_arc.PNG.png" alt="" />
+                </Link>
+            </Wrap>
         </Content>
         </Container>
 
@@ -68,4 +74,4 @@ box-shadow: rgb(0 0 0 / 69%) 0px 26px 30px -10px,
     }
 `;
 
-export default Recommends;
+export default Trending;
