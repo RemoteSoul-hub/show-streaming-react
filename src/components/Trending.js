@@ -7,22 +7,22 @@ const Trending = (props) => {
         <Content>
             <Wrap>
                 <Link to='/'>
-                    <img src="https://www.screentest.xyz/wp-content/uploads/2021/01/Granolah_survivor_arc.PNG.png" alt="" />
+                    <img src="https://media.comicbook.com/2020/11/dragon-ball-super-goku-ultra-instinct-sign-1246906-1280x0.jpeg" alt="" />
                 </Link>
             </Wrap>
             <Wrap>
                 <Link to='/'>
-                    <img src="https://www.screentest.xyz/wp-content/uploads/2021/01/Granolah_survivor_arc.PNG.png" alt="" />
+                    <img src="https://mangathrill.com/wp-content/uploads/2020/10/pjimage-6-1.jpg" alt="" />
                 </Link>
             </Wrap>
             <Wrap>
                 <Link to='/'>
-                    <img src="https://www.screentest.xyz/wp-content/uploads/2021/01/Granolah_survivor_arc.PNG.png" alt="" />
+                    <img src="https://mangathrill.com/wp-content/uploads/2020/07/dattadasdaasda.jpg" alt="" />
                 </Link>
             </Wrap>
             <Wrap>
                 <Link to='/'>
-                    <img src="https://www.screentest.xyz/wp-content/uploads/2021/01/Granolah_survivor_arc.PNG.png" alt="" />
+                    <img src="https://media.comicbook.com/2020/05/dragon-ball-super-vegeta-1221743-1280x0.jpeg" alt="" />
                 </Link>
             </Wrap>
         </Content>

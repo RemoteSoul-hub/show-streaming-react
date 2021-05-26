@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import ReactLogo from './cta-logo-one.svg';
+import ReactLogo from './dbplus.svg';
 
 const Login = (props) => {
     return (
@@ -8,10 +8,7 @@ const Login = (props) => {
             <CTA>
                 <CTALogoOne src={ReactLogo} alt="" />
             <SignUp>SIGN UP NOW</SignUp>
-            <Description>Get Premier Access to Raya and the Last Dragon for an additional fee
-            with a Disney+ subscription. As of 03/26/21, the price of Disney+
-            and The Disney Bundle will increase by $1.</Description>
-            <CTALogoTwo src='images/cta-logo-two.png' alt='' />
+            <Description>Get Premium Access to the latest news in the Dragon Ball universe. As of June 2021, the website will be updated regularly!</Description>
             </CTA>
             <BgImage />
         </Content>
@@ -55,6 +52,9 @@ right: 0;
 `;
 
 const CTA = styled.div`
+background-color: rgba(0,0,0,0.5);
+border-radius: 5px;
+border: 2px solid #fff;
 margin-bottom: 2vw;
 max-width: 650px;
 flex-wrap: wrap;
@@ -104,12 +104,5 @@ line-height: 1.5em;
 letter-spacing: 1.5px;
 `;
 
-const CTALogoTwo = styled.img`
-    max-width: 600px;
-    margin-bottom: 20px;
-    display: inline-block;
-    vertical-align: bottom;
-    width: 100%;
-`;
 
 export default Login;

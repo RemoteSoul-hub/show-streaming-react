@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 const Manga = (props) => {
     return <Container>
-        <h3>Mangas and Fanfictions</h3>
+        <h3>Manga</h3>
         <Content>
             <Wrap>
                 <Link to='/'>
@@ -12,17 +12,17 @@ const Manga = (props) => {
             </Wrap>
             <Wrap>
                 <Link to='/'>
-                    <img src="https://www.screentest.xyz/wp-content/uploads/2021/01/Granolah_survivor_arc.PNG.png" alt="" />
+                    <img src="https://freegametips.com/wp-content/uploads/2020/12/1608486626_Dragon-Ball-Super-chapter-67-now-available-how-to-read-1024x576.jpg" alt="" />
                 </Link>
             </Wrap>
             <Wrap>
                 <Link to='/'>
-                    <img src="https://www.screentest.xyz/wp-content/uploads/2021/01/Granolah_survivor_arc.PNG.png" alt="" />
+                    <img src="https://gadgetfreeks.com/wp-content/uploads/2020/05/Dragon-Ball-Super-Manga-Chapter-60.jpg" alt="" />
                 </Link>
             </Wrap>
             <Wrap>
                 <Link to='/'>
-                    <img src="https://www.screentest.xyz/wp-content/uploads/2021/01/Granolah_survivor_arc.PNG.png" alt="" />
+                    <img src="https://www.hitc.com/static/uploads/2020/10/Screenshot_2020-10-12-1-Dragon-Ball-Super-Official-Manga-Trailer-YouTube.png" alt="" />
                 </Link>
             </Wrap>
         </Content>
